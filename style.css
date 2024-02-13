@@ -50,7 +50,7 @@ body{
 
 .toppVänsterNav{
     background-color: #D9D9D9;
-    width: 17%;
+    width: 251.73px;
     height: 100px;
 }
 
@@ -75,7 +75,7 @@ body{
 
 .vänsterSideBar{
     height: 685px;
-    width: 17%;
+    width: 251.73px;
     background-color: #A0A0A0;
 }
 
@@ -83,6 +83,7 @@ body{
     width: 83%;
     display: flex;
     flex-direction: row;
+    margin: 7px;
 }
 
 .produkt1 , .produkt2 , .produkt3{
@@ -97,6 +98,7 @@ body{
 }
 
 .listaMedRubriker{
+    width: 251.73px;
     list-style-type: none;
     margin: 0px;
     border: 0px;
