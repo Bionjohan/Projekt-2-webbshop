@@ -58,7 +58,7 @@ body{
     background-color: #337229;
     color: #FEFEFE;
     text-align: center;
-    width: 83vw;
+    width: 76vw;
     height: 13vh;
 }
 
@@ -113,4 +113,22 @@ body{
     padding: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.KundvagnKnapp{
+    background-color: #FEFEFE;
+    align-items: end;
+    width: 7vw;
+    height: 13vh;
+}
+
+.KundvagnPng{
+    width: 7vw;
+    height: 13vh;
+    background-color: transparent;
+    border: none;
+}
+
+.KundvagnKnapp:hover{
+    cursor: pointer;
 }
