@@ -58,7 +58,7 @@ body{
     background-color: #337229;
     color: #FEFEFE;
     text-align: center;
-    width: 76vw;
+    width: 75vw;
     height: 13vh;
 }
 
@@ -75,22 +75,26 @@ body{
 
 .vänsterSideBar{
     height: 78vh;
-    width: 17vw;
+    width: 18vw;
     background-color: #A0A0A0;
 }
 
-.produkt{
-    width: 83vw;
-    height: 78vh;
+.produkter{
+    width: 82vw;
+    height: 55vh;
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 .produkt1 , .produkt2 , .produkt3{
     background-color: #FFFFFF;
     width: 26vw;
-    height: 46vh;
-    margin: 15px
+    height: 55vh;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .main{
     display: flex;
@@ -116,19 +120,37 @@ body{
 }
 
 .KundvagnKnapp{
-    background-color: #FEFEFE;
+    background-color: black;
     align-items: end;
     width: 7vw;
     height: 13vh;
+    align-items: center;
 }
 
 .KundvagnPng{
     width: 7vw;
     height: 13vh;
-    background-color: transparent;
+    background-color: #FEFEFE;
     border: none;
 }
 
 .KundvagnKnapp:hover{
     cursor: pointer;
+}
+
+.produkerMain{
+    display: flex;
+    flex-direction: column;
+    margin: none;
+}
+
+.produkt1bild , .produkt2bild , .produkt3bild{
+    height: 48vh;
+    width: 20vw;
+}
+
+.produkt1bar , .produkt2bar , .produkt3bar{
+    height: 7vh;
+    width: 26vw;
+    background-color: #A0A0A0;
 }
