@@ -144,13 +144,55 @@ body{
     margin: none;
 }
 
-.produkt1bild , .produkt2bild , .produkt3bild{
-    height: 48vh;
+.produkt1bild , .produkt3bild{
+    height: 47vh;
+    width: 22vw;
+}
+
+.produkt2bild{
+    height: 47vh;
+    width: 18vw;
+}
+
+.produkt1bildkvinnor{
+    height: 47vh;
+    width: 20vw;
+}
+
+.produkt2bildkvinnor{
+    height: 47vh;
+    width: 16vw;
+}
+
+.produkt3bildkvinnor{
+    height: 47vh;
     width: 20vw;
 }
 
 .produkt1bar , .produkt2bar , .produkt3bar{
-    height: 7vh;
-    width: 26vw;
+    height: 8vh;
+    width: 100%;
     background-color: #A0A0A0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.knappprodukt{
+    background-color: white;
+    border:solid black 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.knappprodukt:hover{
+    cursor: pointer;
+}
+
+.pris{
+    color: darkred;
+    font-size: 20px;
+    padding-right: 25px;
 }
