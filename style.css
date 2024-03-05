@@ -3,12 +3,40 @@ body{
     background-color: black;
 }
 
-.menyKnapp{
-    width: 75px;
-    height: 75px;
+/* --------------------Mobiltelefon----------------- */
+
+.vänsterSideBar, .toppVänsterNav, .motto, .KundvagnKnapp, .KundvagnPng, .hemsida{
+    display: none;
+}
+
+.logomobil{
+    width: 30vw;
+    height: 10vh;
+    margin-left: 80px;
+}
+
+.rubrik{
+    background-color: #337229;
+    color: #FEFEFE;
+    text-align: center;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+}
+
+.menyKnappvit{
+    width: 18vw;
+    height: 8vh;
     background-color: transparent;
     border: none;
 }
+
+.menyPngvit{
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------------------------------------------*/
 
 .klädesRubrikerKnapp{
     background-color: transparent;
@@ -32,11 +60,6 @@ body{
     cursor: pointer;
 }
 
-.menyPng{
-    width: 73px;
-    height: 73px;
-}
-
 .logoTyp{
     width: 155px;
     height: 93px;
@@ -46,31 +69,6 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-}
-
-.rubrik{
-    background-color: #337229;
-    color: #FEFEFE;
-    text-align: center;
-    width: 75vw;
-    height: 13vh;
-}
-
-.hemsida{
-    margin-top: 15px;
-    margin-bottom: 0;
-}
-
-.motto{
-    margin-top: 10px;
-    margin-bottom: 0;
-    font-size: 20px;
-}
-
-.vänsterSideBar{
-    height: 78vh;
-    width: 18vw;
-    background-color: #A0A0A0;
 }
 
 .produkter{
@@ -111,21 +109,6 @@ body{
     padding: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.KundvagnKnapp{
-    background-color: black;
-    align-items: end;
-    width: 7vw;
-    height: 13vh;
-    align-items: center;
-}
-
-.KundvagnPng{
-    width: 103px;
-    height: 103px;
-    background-color: #FEFEFE;
-    border: none;
 }
 
 .KundvagnKnapp:hover{
@@ -194,17 +177,15 @@ body{
 /* Ipad CSS */
 
 @media (min-width: 600px) {
-    #product {
-      width: calc(50% - 40px);
-    }
+    
   }
 
-  
-/* Computer CSS */
+/* Dator CSS */
 
 @media (min-width: 1024px) {
-    #product {
-      width: calc(25% - 40px);
+
+    .vänsterSideBar, .toppVänsterNav, .motto, .KundvagnKnapp, .KundvagnPng, .hemsida{
+        display: block;
     }
 
     .toppVänsterNav{
@@ -229,5 +210,68 @@ body{
         display: flex;
         flex-direction: row;
         margin-bottom: 30px;
+    }
+
+    .vänsterSideBar{
+        height: 78vh;
+        width: 18vw;
+        background-color: #A0A0A0;
+    }
+
+    .motto{
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .KundvagnKnapp{
+        background-color: black;
+        align-items: end;
+        width: 7vw;
+        height: 13vh;
+        align-items: center;
+    }
+    
+    .KundvagnPng{
+        width: 103px;
+        height: 103px;
+        background-color: #FEFEFE;
+        border: none;
+    }
+
+
+    .hemsida{
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    .logomobil{
+        display: none;
+    }
+    
+
+    .rubrik{
+        background-color: #337229;
+        color: #FEFEFE;
+        text-align: center;
+        width: 75vw;
+        height: 13vh;
+        display: block;
+    }
+
+    .menyKnapp{
+        width: 75px;
+        height: 75px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .menyPng{
+        width: 73px;
+        height: 73px;
+    }
+
+    .menyKnappvit, .menyPngvit{
+        display: none;
     }
   }
