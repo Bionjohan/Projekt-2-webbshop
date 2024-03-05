@@ -214,13 +214,13 @@ body{
         align-items: center;
     }
 
-    .produkter , .produkter2{
+    .produkter, .produkter2{
         width: 82vw;
         height: 55vh;
         display: flex;
         flex-direction: row;
         margin-bottom: 30px;
-        margin-top: none;
+        margin-top: 0px;
     }
 
     .produkt1bild , .produkt3bild{
