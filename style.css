@@ -50,7 +50,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    margin-top: 1000px;
+    margin-top: 1015px;
 }
 
 .produkt1 , .produkt2 , .produkt3{
@@ -101,12 +101,21 @@ body{
     border: none;
 }
 
+.varukorgknapp{
+    background-color: transparent;
+    border: none;
+}
+
 .logolänk{
     background-color: transparent;
     border: none;
 }
 
 .klädesRubrikerKnapp:hover{
+    cursor: pointer;
+}
+
+.varukorgknapp:hover{
     cursor: pointer;
 }
 
@@ -187,7 +196,82 @@ body{
 /* Ipad CSS */
 
 @media (min-width: 600px) {
+    .rubrik{
+        background-color: #337229;
+        color: #FEFEFE;
+        text-align: center;
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+    }
+
+    .produkter{
+        width: 50vw;
+        height: 55vh;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .produkter2{
+        width: 50vw;
+        height: 55vh;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .produkter3{
+        width: 50vw;
+        height: 55vh;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
     
+    .produkt1 , .produkt2 , .produkt3{
+        background-color: #FFFFFF;
+        width: 50vw;
+        height: 55vh;
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .produkt1bild , .produkt3bild{
+        height: 47vh;
+        width: 50vw;
+    }
+    
+    .produkt2bild{
+        height: 47vh;
+        width: 50vw;
+    }
+    
+    .produkt1bildkvinnor{
+        height: 47vh;
+        width: 50vw;
+    }
+    
+    .produkt2bildkvinnor{
+        height: 47vh;
+        width: 50vw;
+    }
+    
+    .produkt3bildkvinnor{
+        height: 47vh;
+        width: 50vw;
+    }
+    
+    .produkerMain{
+        display: flex;
+        flex-direction: row;
+        margin: none;
+    }
   }
 
 /* Dator CSS */
