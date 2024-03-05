@@ -36,6 +36,64 @@ body{
     height: 100%;
 }
 
+.produkter{
+    width: 90vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.produkter2{
+    width: 90vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 1000px;
+}
+
+.produkt1 , .produkt2 , .produkt3{
+    background-color: #FFFFFF;
+    width: 90vw;
+    height: 55vh;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produkt1bild , .produkt3bild{
+    height: 47vh;
+    width: 90vw;
+}
+
+.produkt2bild{
+    height: 47vh;
+    width: 90vw;
+}
+
+.produkt1bildkvinnor{
+    height: 47vh;
+    width: 90vw;
+}
+
+.produkt2bildkvinnor{
+    height: 47vh;
+    width: 90vw;
+}
+
+.produkt3bildkvinnor{
+    height: 47vh;
+    width: 90vw;
+}
+
+.produkerMain{
+    display: flex;
+    flex-direction: row;
+    margin: none;
+}
+
 /*----------------------------------------------------*/
 
 .klädesRubrikerKnapp{
@@ -71,23 +129,6 @@ body{
     width: 100%;
 }
 
-.produkter{
-    width: 82vw;
-    height: 55vh;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 30px;
-}
-
-.produkt1 , .produkt2 , .produkt3{
-    background-color: #FFFFFF;
-    width: 26vw;
-    height: 55vh;
-    margin: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 .main{
     display: flex;
     flex-direction: row;
@@ -113,37 +154,6 @@ body{
 
 .KundvagnKnapp:hover{
     cursor: pointer;
-}
-
-.produkerMain{
-    display: flex;
-    flex-direction: column;
-    margin: none;
-}
-
-.produkt1bild , .produkt3bild{
-    height: 47vh;
-    width: 22vw;
-}
-
-.produkt2bild{
-    height: 47vh;
-    width: 18vw;
-}
-
-.produkt1bildkvinnor{
-    height: 47vh;
-    width: 20vw;
-}
-
-.produkt2bildkvinnor{
-    height: 47vh;
-    width: 16vw;
-}
-
-.produkt3bildkvinnor{
-    height: 47vh;
-    width: 20vw;
 }
 
 .produkt1bar , .produkt2bar , .produkt3bar{
@@ -204,12 +214,44 @@ body{
         align-items: center;
     }
 
-    .produkter{
+    .produkter , .produkter2{
         width: 82vw;
         height: 55vh;
         display: flex;
         flex-direction: row;
         margin-bottom: 30px;
+        margin-top: none;
+    }
+
+    .produkt1bild , .produkt3bild{
+        height: 47vh;
+        width: 22vw;
+    }
+    
+    .produkt2bild{
+        height: 47vh;
+        width: 18vw;
+    }
+    
+    .produkt1bildkvinnor{
+        height: 47vh;
+        width: 20vw;
+    }
+    
+    .produkt2bildkvinnor{
+        height: 47vh;
+        width: 16vw;
+    }
+    
+    .produkt3bildkvinnor{
+        height: 47vh;
+        width: 20vw;
+    }
+
+    .produkterMain{
+        display: flex;
+        flex-direction: column;
+        margin: none;
     }
 
     .vänsterSideBar{
